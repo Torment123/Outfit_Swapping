@@ -6,4 +6,8 @@ This is a implementation for text-prompt based outfit swapping for human avatar 
 ![workflow](https://github.com/user-attachments/assets/db2f26dd-ef61-4289-a2c8-bc83c64903cf)
 
 ## Data Preparationg and Preprocessing
-The avatar images used in this implementation are from the 'Studio Avatar' tab in [link](https://app.heygen.com/avatars)
+The avatar images used in this implementation are from the 'Studio Avatar' tab in [link](https://app.heygen.com/avatars). And based on [heygen-generative-outfit-instruction](https://help.heygen.com/en/articles/8181925-heygen-generative-outfit-instructions) the images are cropped to close-up view, and individuals whose hair fall on the shoulder are not selected.
+
+## Execution
+
+
