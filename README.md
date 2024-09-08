@@ -40,8 +40,9 @@ If not specified `--model-id` defaults to `ds8_inp`.
 ![Screenshot 2024-09-07 203428](https://github.com/user-attachments/assets/d40f4efd-7fb2-4f0a-a8a9-b7a4a71fc4d0)
 
 2. With super-resolution module (better facial details, but with artifacts, might due to forced precision change (bf16 to float32), and imperfect segmentation mask
-![Screenshot 2024-09-07 2049![Screenshot 2024-09-07 211922](https://github.com/user-attachments/assets/7b217228-266f-4ea0-8a42-0aab4e5457bd)
-   
+
+![Screenshot 2024-09-07 204927](https://github.com/user-attachments/assets/3a4c68bd-63a6-46f5-ad25-1adbcde06dc1)
+
 
 ### More results
 ![Screenshot 2024-09-07 211922](https://github.com/user-attachments/assets/0727bcad-d8a8-4208-9ae6-1b2dc9f0b7ed)
