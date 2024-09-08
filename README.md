@@ -12,7 +12,7 @@ The avatar images used in this implementation are from the 'Studio Avatar' tab i
 1. Implement the code in get_seg.ipynb to get the segmentation mask, saved as mask.png
 2. Get the outfit-swapped image by implementing
 
-   ```
+```
 python hd_inpaint.py \
   --model-id ONE_OF[ds8_inp, sd2_inp, sd15_inp] \
   --method ONE_OF[baseline, painta, rasg, painta+rasg] \
@@ -33,3 +33,10 @@ If not specified `--model-id` defaults to `ds8_inp`.
 - `painta` - Use PAIntA block as introduced in the paper.
 - `rasg` - Use RASG guidance mechanism as introduced in the paper.
 - `painta+rasg` - Use both PAIntA and RASG mechanisms.
+
+## Results
+### Ablation on Super-Resolution module of HD-Painter
+1. Without super-reoslution module
+![Screenshot 2024-09-07 203428](https://github.com/user-attachments/assets/d40f4efd-7fb2-4f0a-a8a9-b7a4a71fc4d0)
+
+3. With super-resolution module
